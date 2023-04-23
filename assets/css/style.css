@@ -1,0 +1,25 @@
+#digimonIcon {
+	height: 8vh;
+}
+#titulo {
+	font-size: calc(1.5em + 1vw);
+	font-weight: bold;
+}
+#sidebar{
+	width: 25vw;
+	height: auto;
+	
+}
+#digiContenido{
+	height: 83vh;
+}
+#rowImg{
+	display: flex;
+	align-items: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
