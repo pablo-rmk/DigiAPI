@@ -20,6 +20,7 @@ function digimon(datos) {
     let nombre = document.getElementById('digiNombre');
     let nivel = document.getElementById('digiNivel');
     let nombres = [];
+    
     datos.forEach(elem => {
         nombres.push(elem.name.toLowerCase());
         if (elem.name.toLowerCase() === busqueda) {
