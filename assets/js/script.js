@@ -3,7 +3,9 @@ $(document).ready(function () {
     let llamado = fetch('https://digimon-api.vercel.app/api/digimon').then(response => response.json());
     llamado.then(datos => listado(datos));
 
-    $('#digiButton').click(function (datos) {
+
+    $('#digiForm').submit(function (event) {
+        event.preventDefault();
         llamado.then(datos => digimon(datos));
     });
 });
